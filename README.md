@@ -2,7 +2,7 @@
 
 # setting:
 In the hosts file (/etc/hosts) the ondemand enviorment line should come after a header which includes - "on-demand-tester"
-Example:
+# Example:
 \################
 \# on-demand-tester 
 \################
