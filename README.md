@@ -8,4 +8,4 @@ the script will look & replace the text that comes 2 line below the header.
 \################<br/>
 10.200.5.248 www.local3387.test.behalf.com app.local3387.test.behalf.com api.local3387.test.behalf.com admin.local3387.test.behalf.com dashboard.local3387.test.behalf.com be.local.behalf.com<br/>
 # Usage:
-sudo ./update_ondemand_hosts <ip adress> <build number>
+sudo ./update_ondemand_hosts \<ip adress\> \<build number\>
