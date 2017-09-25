@@ -46,7 +46,7 @@ line_number=$(( $line_number + 2))
 
 
 # prepare the new line
-new_line="$ip www.local${build_number}.test.behalf.com app.local${build_number}.test.behalf.com api.local${build_number}.test.behalf.com admin.local${build_number}.test.behalf.com dashboard.local${build_number}.test.behalf.com be.local.behalf.com"
+new_line="$ip www.local${build_number}.test.behalf.com app.local${build_number}.test.behalf.com api.local${build_number}.test.behalf.com admin.local${build_number}.test.behalf.com dashboard.local${build_number}.test.behalf.com be.local.behalf.com configuration-server"
 
 # back the currnet hosts file
 cp $hosts_file $hosts_backup_path/$hosts_backup_file

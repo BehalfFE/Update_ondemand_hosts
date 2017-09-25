@@ -1,0 +1,39 @@
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+0.0.0.0	localhost
+255.255.255.255 broadcasthost
+::1 localhost
+fe80::1%lo0 localhost
+#192.168.99.100   api.local.behalf.com
+#192.168.99.100   www.local.behalf.com
+#192.168.99.100   admin.local.behalf.com
+#192.168.99.100   dashboard.local.behalf.com
+#192.168.99.100   be.local.behalf.com
+################
+#staging
+################
+#52.7.189.167 app.behalf.com api.behalf.com
+################
+# local enviorment
+###############
+127.0.0.1 admin.local.behalf.com be.local2.behalf.com be.local2.zazma.com api.local.zazma.com api.local2.behalf.com www.local2.behalf.com
+################
+# frontend prod6
+#################
+#50.19.159.147   www.behalf.com api.behalf.com  admin.behalf.om  dashboard.behalf.com
+################
+# frontend prod7
+#################
+#54.221.126.240     www.behalf.com api.behalf.com  admin.behalf.om  app.behalf.com
+
+################
+# on-demand-tester (BPI enviorment)
+################
+10.200.5.45 www.local4030.test.behalf.com app.local4030.test.behalf.com api.local4030.test.behalf.com admin.local4030.test.behalf.com dashboard.local4030.test.behalf.com be.local.behalf.com configuration-server
+#################
+# NG production
+#################
+172.21.4.83 ec2box.mgmt.us                   ec2box
+#172.21.0.153 proxy-1.mgmt.us                  yp.behalf.com  proxy-1 frontend-admin.prod.us back-ops.prod.us escluster-1.prod.us mqcluster-1.prod.us oia-graph.prod.us jenkins-1.mgmt.us
+
